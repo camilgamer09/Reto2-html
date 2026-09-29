@@ -1,10 +1,3 @@
-/*CUERPO DE LA PAGINA CAMBIO DE COLOR AL FONDO Y LE CAMBIE EL MARGEN PARA VERSE MAS CENTRADO ESPECIFICO NO ESTA CENTRADO APROPOCITO */
-body {
-    background-color: #5b6b85;
-    margin: 150px;
-    padding: 0;
-}
-
 /* CONTENEDOR DEL CALENDARIO */
 .calendar-container {
     width: 600px;
@@ -21,6 +14,7 @@ body {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 5px;
+    text-align: center;
     
 }
 
@@ -34,8 +28,8 @@ body {
 
 /* CELDAS DE LOS DIAS DEL MES */
 .day-cell {
-    border: 1px solid #ccc;
+    border: 1px solid #dee2e6;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     background-color: #916f88;
 }
